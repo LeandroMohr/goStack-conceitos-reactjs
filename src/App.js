@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div>
-      <button className="addRepo" onClick={handleAddRepository}>Adicionar repositório</button>
+      <button className="addRepo" onClick={handleAddRepository}>Adicionar</button>
       
       <ul data-testid="repository-list">
         {respositories.map(repository => (
